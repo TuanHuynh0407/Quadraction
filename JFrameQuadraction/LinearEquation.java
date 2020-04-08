@@ -36,9 +36,9 @@ public class LinearEquation
 		String s ="";
 		if(a==0) 
 			if(b==0)
-				s= "Phuong trinh vo so nghiem";
+				s= "Phuong trinh co vo so nghiem";
 			else
-				s= "Phuong trinh vo nghiem";
+				s= "Phuong trinh da cho vo nghiem";
 		else
 			s=" x ="+(double)(-b/a);
 		return s;
